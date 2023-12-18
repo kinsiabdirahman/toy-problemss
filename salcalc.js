@@ -2,10 +2,10 @@ function calculateNetSalary(basicSalary, benefits) {
   // Constants for tax rates and deductions
   const taxRates = {
     "Up to 24,000": 10,
-    "24,001 - 40,000": 15,
-    "40,001 - 60,000": 20,
-    "60,001 - 80,000": 25,
-    "Above 80,000": 30,
+    "24,001 - 32,333": 25,
+    "32,334 - 500,000": 30,
+    "500,001 - 800,000": 32,
+    "Above 800,000": 35,
   };
   const nhifRates = {
     "Up to 5,999": 150,
